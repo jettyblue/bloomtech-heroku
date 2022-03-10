@@ -11,6 +11,6 @@ server.get('/', (req, res) => {
 })
 
 server.listen(PORT, () => {
-    console.log(process.env.MY_ENV);
+    console.log("here is my QWERTY variable:", process.env.MY_ENV);
     console.log(`server is running on port ${PORT}, user is ${process.env.USERNAME}`);
 })
